@@ -6,9 +6,13 @@ theme: jekyll-theme-minimal
 
 header_links:
   - label: "GitHub"
-    url: "https://github.com/yourusername"
-    icon: "fab fa-github"  # Use the appropriate icon class or image URL
-  - label: "Twitter"
-    url: "https://twitter.com/yourusername"
-    icon: "fab fa-twitter"  # Use the appropriate icon class or image URL
-# Add more social media links as needed
+    url: "https://github.com/ASatya-J107"
+    icon: "fab fa-github"  
+  - label: "Linkedin"
+    url: "https://www.linkedin.com/in/msatya-annas/"
+    icon: "fab fa-linkedin"
+  - label: "GMail"
+    url: "mailto:muhammadsatya.annas@gmail.com"
+    icon: "fab fa-gmail"
+
+  
