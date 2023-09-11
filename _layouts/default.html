@@ -5,9 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
+      /* CSS for the .social-icon class (already exists) */
       .social-icon {
         max-width: 32px; /* Adjust the width as needed */
         max-height: 32px; /* Adjust the height as needed */
+      }
+    
+      /* CSS to style the social media list */
+      .social-media-list {
+        list-style: none; /* Remove bullet points */
+        padding: 0; /* Remove default padding */
+        display: flex; /* Display list items horizontally */
+        align-items: center; /* Center align the items vertically (optional) */
+      }
+    
+      .social-media-list li {
+        margin-right: 10px; /* Add spacing between the icons (adjust as needed) */
       }
     </style>
 
@@ -29,7 +42,7 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
-        <ul class="social-media">
+        <ul class="social-media-list">
           <li><a href="https://github.com/ASatya-J107"><img src="/assets/img/github.png" alt="GitHub" class="social-icon"></a></li>
           <li><a href="https://www.linkedin.com/in/msatya-annas/"><img src="/assets/img/linkedin.png" alt="LinkedIn" class="social-icon"></a></li>
           <li><a href="mailto:muhammadsatya.annas@gmail.com"><img src="/assets/img/email.png" alt="Email" class="social-icon"></a></li>
