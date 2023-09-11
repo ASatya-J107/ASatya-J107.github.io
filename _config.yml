@@ -3,3 +3,12 @@ logo: /assets/img/headshot_circle.png
 description: Data Enthusiast | Data Scientist | Data Analyst
 #show_downloads: true
 theme: jekyll-theme-minimal
+
+header_links:
+  - label: "GitHub"
+    url: "https://github.com/yourusername"
+    icon: "fab fa-github"  # Use the appropriate icon class or image URL
+  - label: "Twitter"
+    url: "https://twitter.com/yourusername"
+    icon: "fab fa-twitter"  # Use the appropriate icon class or image URL
+# Add more social media links as needed
