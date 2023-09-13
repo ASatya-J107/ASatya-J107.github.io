@@ -24,8 +24,18 @@
         margin-right: 10px; /* Add spacing between the icons (adjust as needed) */
       }
       section {
-        background-color: rgba(255, 255, 255, 0.75); /* Translucent white background */
-        padding: 20px; /* Adjust padding size as needed */
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+      }
+
+      header {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+      }
+
+      footer {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
       }
       
       body {
@@ -33,6 +43,15 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+      }
+
+      @media only screen and (max-width: 600px) {
+        body {
+          background-image: url('assets/img/dsp.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
       }
       
     </style>
@@ -71,7 +90,7 @@
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-        <a href="http://www.freepik.com">Designed by rawpixel.com / Freepik</a>
+        <p><small>Designed by <a href="http://www.freepik.com">rawpixel.com / Freepik</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
