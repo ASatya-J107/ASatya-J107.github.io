@@ -1,105 +1,72 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    /* CSS for the .social-icon class (already exists) */
-    .social-icon {
-      max-width: 32px; /* Adjust the width as needed */
-      max-height: 32px; /* Adjust the height as needed */
-    }
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      /* CSS for the .social-icon class (already exists) */
+      .social-icon {
+        max-width: 32px; /* Adjust the width as needed */
+        max-height: 32px; /* Adjust the height as needed */
+      }
+    
+      /* CSS to style the social media list */
+      .social-media-list {
+        list-style: none; /* Remove bullet points */
+        padding: 0; /* Remove default padding */
+        display: flex; /* Display list items horizontally */
+        align-items: center; /* Center align the items vertically (optional) */
+      }
+    
+      .social-media-list li {
+        margin-right: 10px; /* Add spacing between the icons (adjust as needed) */
+      }
+    </style>
 
-    /* CSS to style the social media list */
-    .social-media-list {
-      list-style: none; /* Remove bullet points */
-      padding: 0; /* Remove default padding */
-      display: flex; /* Display list items horizontally */
-      align-items: center; /* Center align the items vertically (optional) */
-    }
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    {% include head-custom.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if site.logo %}
+          <a href="https://github.com/ASatya-J107"><img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 200px; max-height: 200px;"></a>
+        {% endif %}
+        
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        
+        <ul class="social-media-list">
+          <li><a href="https://github.com/ASatya-J107" target="_blank"><img src="/assets/logo/github.png" alt="GitHub" class="social-icon"></a></li>
+          <li><a href="https://www.linkedin.com/in/msatya-annas/" target="_blank"><img src="/assets/logo/linkedin.png" alt="LinkedIn" class="social-icon"></a></li>
+          <li><a href="mailto:muhammadsatya.annas@gmail.com" target="_blank"><img src="/assets/logo/gmail.png" alt="Email" class="social-icon"></a></li>
+          <li><a href="https://api.whatsapp.com/send/?phone=6285156613093&text&type=phone_number&app_absent=0" target="_blank"><img src="/assets/logo/whatsapp.png" alt="Whatsapp" class="social-icon"></a></li>
+          <li><a href="https://t.me/AnnasSatya" target="_blank"><img src="/assets/logo/telegram.png" alt="Telegram" class="social-icon"></a></li>
+          <li><a href="https://drive.google.com/file/d/1caf_Vy8SRD2_CxOt34aRjqNsp9c0huWA/view?usp=sharing" target="_blank"><img src="/assets/logo/cv.png" alt="CV" class="social-icon"></a></li>
+        </ul>
 
-    .social-media-list li {
-      margin-right: 10px; /* Add spacing between the icons (adjust as needed) */
-    }
-
-    /* Add CSS styles for the TOC */
-    .toc {
-      margin-right: 20px;
-      border: 1px solid #ccc;
-      padding: 10px;
-      background-color: #f9f9f9;
-    }
-
-    .toc h2 {
-      font-size: 16px;
-    }
-
-    .toc ul {
-      list-style: none;
-      padding: 0;
-    }
-
-    .toc ul li {
-      margin-left: 10px;
-    }
-  </style>
-
-  {% seo %}
-  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  <!--[if lt IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-  <![endif]-->
-  {% include head-custom.html %}
-</head>
-<body>
-  <div class="wrapper">
-    <header>
-      {% if site.logo %}
-        <a href="https://github.com/ASatya-J107"><img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 200px; max-height: 200px;"></a>
-      {% endif %}
-
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-      <ul class="social-media-list">
-        <li><a href="https://github.com/ASatya-J107" target="_blank"><img src="/assets/logo/github.png" alt="GitHub" class="social-icon"></a></li>
-        <li><a href="https://www.linkedin.com/in/msatya-annas/" target="_blank"><img src="/assets/logo/linkedin.png" alt="LinkedIn" class="social-icon"></a></li>
-        <li><a href="mailto:muhammadsatya.annas@gmail.com" target="_blank"><img src="/assets/logo/gmail.png" alt="Email" class="social-icon"></a></li>
-        <li><a href="https://api.whatsapp.com/send/?phone=6285156613093&text&type=phone_number&app_absent=0" target="_blank"><img src="/assets/logo/whatsapp.png" alt="Whatsapp" class="social-icon"></a></li>
-        <li><a href="https://t.me/AnnasSatya" target="_blank"><img src="/assets/logo/telegram.png" alt="Telegram" class="social-icon"></a></li>
-        <li><a href="https://drive.google.com/file/d/1caf_Vy8SRD2_CxOt34aRjqNsp9c0huWA/view?usp=sharing" target="_blank"><img src="/assets/logo/cv.png" alt="CV" class="social-icon"></a></li>
-      </ul>
-
-      {% if site.show_downloads %}
-      <ul class="downloads">
-        <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-        <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-        <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-      </ul>
-      {% endif %}
-    </header>
-    <section>
-      <!-- TOC -->
-      <div class="toc"></div>
-      <!-- End of TOC -->
+        {% if site.show_downloads %}
+        <ul class="downloads">
+          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+        </ul>
+        {% endif %}
+      </header>
+      <section>
 
       {{ content }}
-    </section>
-    <footer>
-      <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-    </footer>
-  </div>
-  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  <script src="https://cdn.jsdelivr.net/npm/markdown-it@12.1.0/dist/markdown-it.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/markdown-it-toc@1.2.3/dist/markdown-it-toc.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const markdownItToc = new MarkdownIt().use(markdownItToc);
-      const markdownContent = document.querySelector('section').innerHTML;
-      const tocElement = document.querySelector('.toc');
-      tocElement.innerHTML = markdownItToc.render(markdownContent);
-    });
-  </script>
-</body>
+
+      </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
 </html>
