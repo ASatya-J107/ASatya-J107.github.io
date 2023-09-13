@@ -2,6 +2,7 @@
 I am Muhammad Satya Annas, a Telecommunication Engineer with a deep-rooted passion for the world of data science. Over my 5+ years of experience in the Radio Access Network field, I've honed my skills in statistical analysis and technical problem-solving. Transitioning into a Data Scientist role following the completion of a Data Science Bootcamp, I've developed proficiency in Python programming, machine learning, data visualization, and more. My enthusiasm for data, coupled with a strong drive to continuously expand my knowledge, fuels my aspiration to be a data scientist. I'm driven by the opportunity to uncover insights, inform decisions, and drive innovation through the transformative power of data analytics.
 
 # **Education**
+
 | ![Telu](assets/logo/untel.png) | Telkom University<br>Telecommunication Engineering<br>2010 - 2017 |
 
 | ![DS](assets/logo/digitalskola.png) | Digital Skola<br>Data Science Bootcamp<br> 2023-2023 |
