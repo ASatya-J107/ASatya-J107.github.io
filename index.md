@@ -1,5 +1,10 @@
 # **About Me**
-Telecommunication Engineer transitioning into a Data Scientist role after completing Data Science Bootcamp. Over 5 years experienced in Radio Access Network field accustomed to perform statistical analysis on KPI Radio statistics. Data Enthusiast equipped with proficiency in Data Science, keen to learn new skill and knowledge. I aspire to be a data scientist because allow me to unravel insights, drive informed decisions, and shape the future through innovative applications of analytics
+I am Muhammad Satya Annas, a Telecommunication Engineer with a deep-rooted passion for the world of data science. Over my 5+ years of experience in the Radio Access Network field, I've honed my skills in statistical analysis and technical problem-solving. Transitioning into a Data Scientist role following the completion of a Data Science Bootcamp, I've developed proficiency in Python programming, machine learning, data visualization, and more. My enthusiasm for data, coupled with a strong drive to continuously expand my knowledge, fuels my aspiration to be a data scientist. I'm driven by the opportunity to uncover insights, inform decisions, and drive innovation through the transformative power of data analytics.
+
+# **Education**
+![TELU](assets/img/untel.png) | Telkom University
+                              | Telecommunication Engineering
+                              | 2010 - 2017
 
 # **Data Science Projects**
 ## Tableau - Livestock Production Dashboard
