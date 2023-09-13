@@ -12,7 +12,7 @@ I am Muhammad Satya Annas, a Telecommunication Engineer with a deep-rooted passi
 
 ![tabl dash1](assets/img/tabl_dash1.png)
 
-In this project, I created an interactive dashboard using data from bps.go.id and presented it through Tableau Public. The dashboard has three main components. Firstly, a map displays the distribution of livestock sector production in each province, with the ability to filter by selected province. Secondly, a bar chart visualizes production by product type, also filterable by product selection. Lastly, a line chart shows production data from 2018 to 2022. This dashboard provides a clear overview of livestock production across provinces, product types, and their trends over recent years. You can access the dashboard via the provided link. [**Dashboard Link**](https://public.tableau.com/shared/Z775W6Z7C?:display_count=n&:origin=viz_share_link)
+In this project, I created an interactive dashboard using data from bps.go.id and presented it through Tableau Public. The dashboard has three main components. Firstly, a map displays the distribution of livestock sector production in each province, with the ability to filter by selected province. Secondly, a bar chart visualizes production by product type, also filterable by product selection. Lastly, a line chart shows production data from 2018 to 2022. This dashboard provides a clear overview of livestock production across provinces, product types, and their trends over recent years. You can access the dashboard via the provided link. **[Dashboard Link](https://public.tableau.com/shared/Z775W6Z7C?:display_count=n&:origin=viz_share_link)**
 
 ## Exam Score Prediction and Model Deployment
 
