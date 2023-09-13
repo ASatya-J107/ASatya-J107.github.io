@@ -24,17 +24,19 @@
         margin-right: 10px; /* Add spacing between the icons (adjust as needed) */
       }
       section {
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.9);
         padding: 20px;
       }
 
       header {
-        background-color: rgba(255, 255, 255, 0.5);
-        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 10px 20px 20px 20px;
+        /* Order of padding values: top right bottom left */
+        margin-top: -10px; /* Counteract the top padding */
       }
 
       footer {
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.9);
         padding: 20px;
       }
       
@@ -90,7 +92,7 @@
       </section>
       <footer>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-        <p><small>Designed by <a href="http://www.freepik.com">rawpixel.com / Freepik</a></small></p>
+        <p style="margin-top: 0;"><small>Designed by <a href="http://www.freepik.com">rawpixel.com / Freepik</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
