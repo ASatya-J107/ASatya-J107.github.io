@@ -34,12 +34,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
         {% if site.logo %}
           <a href="https://github.com/ASatya-J107"><img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 200px; max-height: 200px;"></a>
         {% endif %}
-
+        
+        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
         <ul class="social-media-list">
