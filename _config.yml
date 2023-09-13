@@ -1,18 +1,6 @@
 title: Portfolio
+author_name : Muhammad Satya Annas
 logo: /assets/img/headshot_circle.png
 description: Data Enthusiast | Data Scientist | Data Analyst
 #show_downloads: true
 theme: jekyll-theme-minimal
-
-header_links:
-  - label: "GitHub"
-    url: "https://github.com/ASatya-J107"
-    icon: "fab fa-github"  
-  - label: "Linkedin"
-    url: "https://www.linkedin.com/in/msatya-annas/"
-    icon: "fab fa-linkedin"
-  - label: "GMail"
-    url: "mailto:muhammadsatya.annas@gmail.com"
-    icon: "fab fa-gmail"
-
-  
