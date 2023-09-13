@@ -1,3 +1,6 @@
+# **About Me
+Telecommunication Engineer transitioning into a Data Scientist role after completing Data Science Bootcamp. Over 5 years experienced in Radio Access Network field accustomed to perform statistical analysis on KPI Radio statistics. Data Enthusiast equipped with proficiency in Data Science, keen to learn new skill and knowledge. I aspire to be a data scientist because allow me to unravel insights, drive informed decisions, and shape the future through innovative applications of analytics
+
 # **Data Science Projects**
 ## Tableau - Livestock Production Dashboard
 
