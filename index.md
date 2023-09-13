@@ -6,6 +6,7 @@ I am Muhammad Satya Annas, a Telecommunication Engineer with a deep-rooted passi
 <div style="float:left; padding-right: 20px;">
     <img src="assets/logo/untel.png" alt="TELU" height="100">
 </div>
+
 Telkom University
 Telecommunication Engineering
 2010 - 2017
@@ -13,6 +14,7 @@ Telecommunication Engineering
 <div style="float:left; padding-right: 20px;">
     <img src="assets/logo/untel.png" alt="TELU" height="100">
 </div>
+
 Digital Skola
 Data Science Bootcamp
 2010 - 2017
