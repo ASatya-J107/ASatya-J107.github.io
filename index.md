@@ -3,21 +3,27 @@ I am Muhammad Satya Annas, a Telecommunication Engineer with a deep-rooted passi
 
 # **Education**
 
-<div style="float:left; padding-right: 20px;">
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1; padding-right: 20px;">
     <img src="assets/logo/untel.png" alt="TELU" height="100">
+  </div>
+  <div style="flex: 2;">
+    Telkom University
+    Telecommunication Engineering
+    2010 - 2017
+  </div>
 </div>
 
-Telkom University
-Telecommunication Engineering
-2010 - 2017
-
-<div style="float:left; padding-right: 20px;">
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1; padding-right: 20px;">
     <img src="assets/logo/digitalskola.png" alt="DS" height="100">
+  </div>
+  <div style="flex: 2;">
+    Digital Skola
+    Data Science Bootcamp
+    2023 - 2023
+  </div>
 </div>
-
-Digital Skola
-Data Science Bootcamp
-2010 - 2017
 
 # **Data Science Projects**
 ## Tableau - Livestock Production Dashboard
