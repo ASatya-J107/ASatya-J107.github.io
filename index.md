@@ -12,7 +12,7 @@ Telecommunication Engineering
 2010 - 2017
 
 <div style="float:left; padding-right: 20px;">
-    <img src="assets/logo/untel.png" alt="TELU" height="100">
+    <img src="assets/logo/digitalskola.png" alt="DS" height="100">
 </div>
 
 Digital Skola
