@@ -54,7 +54,7 @@
         {% if site.logo %}
           <a href="https://github.com/ASatya-J107"><img src="{{site.logo | relative_url}}" alt="Logo" style="max-width: 200px; max-height: 200px;"></a>
         {% endif %}
-        <h2>Muhammad Satya Annas</h2>
+        <h2>{{ site.author_name | default: site.github.project_tagline }}</h2>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
         
         <ul class="social-media-list">
