@@ -108,7 +108,7 @@
       </header>
       <section>
 
-      {{ content }}
+      {{ content | replace('<a ', '<a target="_blank" ') }}
 
       </section>
         <footer>
