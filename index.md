@@ -3,8 +3,8 @@ I am Muhammad Satya Annas, a Telecommunication Engineer with a deep-rooted passi
 
 # Education
 
-| ![Telu](assets/logo/untel.png) | Telkom University<br>Telecommunication Engineering<br>2010 - 2017 |
-| ![DS](assets/logo/digitalskola.png) | Digital Skola<br>Data Science Bootcamp<br> 2023 - 2023 |
+| ![Telu](assets/logo/untel.png) | Telkom University<br>Telecommunication Engineering |
+| ![DS](assets/logo/digitalskola.png) | Digital Skola<br>Data Science Bootcamp |
 
 
 # Data Science Projects
